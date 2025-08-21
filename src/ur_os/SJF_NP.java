@@ -20,25 +20,22 @@ public class SJF_NP extends Scheduler{
    
     @Override
     public void getNext(boolean cpuEmpty) {
-
-       //Insert code here
-        if (!processes.isEmpty() && cpuEmpty)
-        {
-            ur_os.Process best = null;
+    ur_os.Process best = null;
+        if (!processes.isEmpty() && cpuEmpty) {
             int bestLen = Integer.MAX_VALUE;
 
-            for (Process proc : processes) {
-                if (!proc.isCurrentBurstCPU()) continue;          // Skip si el siguiente procces es I/O.
-                int len = proc.getRemainingTimeInCurrentBurst();  // Tiempo exacto que le queda al CPU burst actual.
+            for (ur_os.Process proc : processes) {
+                if (!proc.isCurrentBurstCPU()) continue;
+                int len = proc.getRemainingTimeInCurrentBurst();
                 if (len < bestLen) {
                     best = proc;
                     bestLen = len;
                 } else if (len == bestLen) {
-                    best = tieBreaker(best, proc);                // inherited deterministic tie resolver
+                    best = tieBreaker(best, proc);
                 }
             }
         }
-        
+
         if (best != null) {
             removeProcess(best);
             addContextSwitch();
@@ -46,8 +43,6 @@ public class SJF_NP extends Scheduler{
         }
     }
 
-
-    
     @Override
     public void newProcess(boolean cpuEmpty) {} //Non-preemtive
 
