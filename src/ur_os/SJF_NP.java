@@ -38,6 +38,12 @@ public class SJF_NP extends Scheduler{
                 }
             }
         }
+        
+        if (best != null) {
+            removeProcess(best);
+            addContextSwitch();
+            os.interrupt(InterruptType.SCHEDULER_RQ_TO_CPU, best);
+        }
     }
 
 
