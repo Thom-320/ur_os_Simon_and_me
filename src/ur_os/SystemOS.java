@@ -45,7 +45,7 @@ public final class SystemOS implements Runnable{
     private SchedulerType selectedScheduler;
     
     private int simulation;
-    boolean menu =false;
+    boolean menu = false;
  
     public SystemOS() {
         this(false);
