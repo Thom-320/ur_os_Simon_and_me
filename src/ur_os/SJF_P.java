@@ -37,6 +37,28 @@ public class SJF_P extends Scheduler{
     public void getNext(boolean cpuEmpty) {
         
         //Insert code here
+        if (!cpuEmpty || processes.isEmpty()) return;
+
+        Process best = null;
+        int bestLen = Integer.MAX_VALUE;
+
+        for (Process p : processes) {
+            if (!p.isCurrentBurstCPU()) continue;
+            int len = p.getRemainingTimeInCurrentBurst();
+            if (len < bestLen) {
+                best = p;
+                bestLen = len;
+            } else if (len == bestLen) {
+                best = tieBreaker(best, p);
+                bestLen = best.getRemainingTimeInCurrentBurst();
+            }
+        }
+
+        if (best != null) {
+            removeProcess(best);
+            addContextSwitch();
+            os.interrupt(InterruptType.SCHEDULER_RQ_TO_CPU, best);
+        }
 
      }
  
