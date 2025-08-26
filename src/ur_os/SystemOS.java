@@ -45,7 +45,7 @@ public final class SystemOS implements Runnable{
     private SchedulerType selectedScheduler;
     
     private int simulation;
-    boolean menu = false;
+    boolean menu =false;
  
     public SystemOS() {
         this(false);
@@ -57,7 +57,7 @@ public final class SystemOS implements Runnable{
         if(menu){
             menu();
         }else{
-            selectedScheduler = SchedulerType.FCFS;
+            selectedScheduler = SchedulerType.SJF_NP;
             simulation = 3; //Simpler2
         }
         

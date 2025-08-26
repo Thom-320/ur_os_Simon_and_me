@@ -16,8 +16,6 @@ public class SJF_NP extends Scheduler{
     SJF_NP(OS os){
         super(os);
     }
-    
-   
     @Override
     public void getNext(boolean cpuEmpty) {
     ur_os.Process best = null;
