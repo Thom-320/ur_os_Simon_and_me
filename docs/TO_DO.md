@@ -19,9 +19,9 @@
 ## 🧮 Scheduling Algorithms
 - [x] `Scheduler.java`: Clase base abstracta para algoritmos de planificación.
 - [x] `FCFS.java`: Implementación de First Come First Served.
-- [ ] `RoundRobin.java`: Implementación de Round Robin.
-- [ ] `SJF_NP.java`: Implementación de Shortest Job First no-preemptivo.
-- [ ] `SJF_P.java`: Implementación de Shortest Job First preemptivo.
+- [x] `RoundRobin.java`: Implementación de Round Robin.
+- [x] `SJF_NP.java`: Implementación de Shortest Job First no-preemptivo.
+- [x] `SJF_P.java`: Implementación de Shortest Job First preemptivo.
 - [ ] `MFQ.java`: Implementación de Multi-Level Feedback Queue.
 - [ ] `SchedulerType.java`: Enum para los tipos de planificación disponibles.
 
