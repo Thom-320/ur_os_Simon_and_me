@@ -474,44 +474,79 @@ public final class SystemOS implements Runnable{
     }
     
     public double calcCPUUtilization() {
+        int A = 0;
         
-        return 0; // Mantiene el cálculo correcto
+        for (int i : execution){
+            A ++;
+        }
+        return A / clock; // U = Active cycles / Total cycles
     }
     
     public double calcTurnaroundTime() {
-        
+        double count = 0;
+        for (Process p: processes){
+            count += p.getTime_finished() - p.getTime_init();
+        }
     
-        return 0;
+        return count / processes.size(); // sum(T_Fi - T_Ii)/processes
     }
     
     public double calcThroughput() {
-        if (processes.isEmpty()) return 0;
-    
-        return 0; // Procesos terminados por unidad de tiempo
+        
+        return (double)processes.size()/clock; // Processes / total cycles
     }
     
     public double calcAvgWaitingTime() {
-           
-        return 0;
+        double count = 0;
+
+        for (Process p: processes){
+         count += p.getTime_finished() - p.getTime_init();
+        } // to get sum(T_Fi - T_Ii)
+
+        int A = 0;
+         for (int i : execution){
+             A ++;
+         } // to get # of active cycles
+     return (count-A)/processes.size();
     }
     
     //Everytime a process is taken out from memory, when a interruption occurs
     public double calcAvgContextSwitches() {
-        
-        return 0;
+        int sw = 0;
+        for (int i = 1; i < execution.size(); i++){
+            if (execution.get(i) != execution.get(i-1)){
+                sw++; // if the process being executed changes it's because a context switch happened :0
+            }
+        }
+        return sw / processes.size(); //# content switches / # processes
     }
     
     
     //Just context switches based on the execution timeline
     public double calcAvgContextSwitches2() {
         
-        return 0;
+        return os.rq.getTotalContextSwitches()/processes.size();
     }
     
     
     public double calcResponseTime() {
+        int time = 0;
         
-        return 0;
+        for (Process p:processes){
+            int resp = -1;
+            for (int i = 1; i < execution.size(); i++){
+                if (execution.get(i) == p.pid){
+                    if (resp == -1){
+                        resp = i;
+                    }
+                }
+            }
+            if (resp != -1){
+                time += (resp - p.time_init);
+            }
+        }
+        
+        return time / processes.size(); // sum(TimeInitialCPUAccess_i - T_Ii) / # processes
 
     }
     public void compareFiles(String filePath1, String filePath2) {
