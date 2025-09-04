@@ -472,47 +472,133 @@ public final class SystemOS implements Runnable{
         
         System.out.println(sb.toString());
     }
-    
+
     public double calcCPUUtilization() {
-        
-        return 0; // Mantiene el cálculo correcto
+        if (clock == 0 || execution.isEmpty()) return 0.0;
+        int busy = 0;
+        for (Integer pid : execution) {
+            if (pid != null && pid >= 0) busy++;
+        }
+        return busy / (double) clock;
     }
-    
     public double calcTurnaroundTime() {
-        
-    
-        return 0;
+        int finished = 0;
+        long sum = 0;
+        for (Process p : processes) {
+            if (!p.isFinished()) continue;
+            int pid = p.getPid();
+
+            int last = -1;
+            for (int i = execution.size() - 1; i >= 0; i--) {
+                Integer v = execution.get(i);
+                if (v != null && v.intValue() == pid) { last = i; break; }
+            }
+            if (last < 0) continue;
+
+            int completion = last + 1;
+            sum += (completion - p.getTime_init());
+            finished++;
+        }
+        return finished == 0 ? 0.0 : (sum / (double) finished);
     }
-    
+
     public double calcThroughput() {
-        if (processes.isEmpty()) return 0;
-    
-        return 0; // Procesos terminados por unidad de tiempo
+        if (clock == 0) return 0.0;
+        int finished = 0;
+        for (Process p : processes) {
+            if (p.isFinished()) finished++;
+        }
+        return finished / (double) clock;
     }
-    
+
     public double calcAvgWaitingTime() {
-           
-        return 0;
+        int finished = 0;
+        long sum = 0;
+        for (Process p : processes) {
+            if (!p.isFinished()) continue;
+            int pid = p.getPid();
+
+            int last = -1;
+            for (int i = execution.size() - 1; i >= 0; i--) {
+                Integer v = execution.get(i);
+                if (v != null && v.intValue() == pid) { last = i; break; }
+            }
+            if (last < 0) continue;
+
+            int completion = last + 1;
+            int turnaround = completion - p.getTime_init();
+
+            int service = 0;
+            for (Integer x : execution) if (x != null && x.intValue() == pid) service++;
+
+            int totalBurst = p.getTotalExecutionTime(); // declared CPU+IO
+            int ioTime = totalBurst - service;
+            if (ioTime < 0) ioTime = 0;
+
+            int waiting = turnaround - service - ioTime;
+            sum += waiting;
+            finished++;
+        }
+        return finished == 0 ? 0.0 : (sum / (double) finished);
     }
     
     //Everytime a process is taken out from memory, when a interruption occurs
     public double calcAvgContextSwitches() {
-        
-        return 0;
+        int finished = 0;
+        for (Process p : processes) if (p.isFinished()) finished++;
+        if (finished == 0 || execution.size() < 2) return 0.0;
+
+        int switches = 0;
+        Integer prev = null;
+        for (int i = 0; i < execution.size(); i++) {
+            Integer curObj = execution.get(i);
+            if (curObj == null) continue;
+            int cur = curObj.intValue();
+            if (cur < 0) continue; // ignore idle
+            if (prev == null) { prev = cur; continue; }
+            if (cur != prev.intValue()) switches++;
+            prev = cur;
+        }
+        return switches / (double) finished;
     }
     
     
     //Just context switches based on the execution timeline
     public double calcAvgContextSwitches2() {
-        
-        return 0;
-    }
-    
-    
-    public double calcResponseTime() {
-        
-        return 0;
+        int finished = 0;
+        for (Process p : processes) if (p.isFinished()) finished++;
+        if (finished == 0 || execution.size() < 2) return 0.0;
 
+        int switches = 0;
+        int prev = (execution.get(0) == null) ? -1 : execution.get(0).intValue();
+        for (int i = 1; i < execution.size(); i++) {
+            int cur = (execution.get(i) == null) ? -1 : execution.get(i).intValue();
+            if (cur != prev) switches++;
+            prev = cur;
+        }
+        return switches / (double) finished;
+    }
+
+
+    public double calcResponseTime() {
+        int finished = 0;
+        long sum = 0;
+        for (Process p : processes) {
+            if (!p.isFinished()) continue;
+            int pid = p.getPid();
+
+            int first = -1;
+            for (int i = 0; i < execution.size(); i++) {
+                Integer v = execution.get(i);
+                if (v != null && v.intValue() == pid) { first = i; break; }
+            }
+            if (first < 0) continue;
+
+            int response = (first + 1) - p.getTime_init();
+            sum += response;
+            finished++;
+        }
+        return finished == 0 ? 0.0 : (sum / (double) finished);
     }
     public void compareFiles(String filePath1, String filePath2) {
         try (BufferedReader reader1 = new BufferedReader(new FileReader(filePath1));
