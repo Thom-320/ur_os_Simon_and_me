@@ -546,20 +546,21 @@ public final class SystemOS implements Runnable{
     public double calcAvgContextSwitches() {
         int finished = 0;
         for (Process p : processes) if (p.isFinished()) finished++;
-        if (finished == 0 || execution.size() < 2) return 0.0;
+        if (finished == 0 || execution.size() < 1) return 0.0;
 
-        int switches = 0;
-        Integer prev = null;
+        int segments = 0;
+        Integer prevNonIdle = null;
         for (int i = 0; i < execution.size(); i++) {
             Integer curObj = execution.get(i);
             if (curObj == null) continue;
             int cur = curObj.intValue();
             if (cur < 0) continue; // ignore idle
-            if (prev == null) { prev = cur; continue; }
-            if (cur != prev.intValue()) switches++;
-            prev = cur;
+            if (prevNonIdle == null || cur != prevNonIdle.intValue()) {
+                segments++;            // new non-idle segment (counts first load)
+                prevNonIdle = cur;
+            }
         }
-        return switches / (double) finished;
+        return segments / (double) finished;
     }
     
     
@@ -567,16 +568,19 @@ public final class SystemOS implements Runnable{
     public double calcAvgContextSwitches2() {
         int finished = 0;
         for (Process p : processes) if (p.isFinished()) finished++;
-        if (finished == 0 || execution.size() < 2) return 0.0;
+        if (finished == 0 || execution.size() < 1) return 0.0;
 
-        int switches = 0;
-        int prev = (execution.get(0) == null) ? -1 : execution.get(0).intValue();
-        for (int i = 1; i < execution.size(); i++) {
-            int cur = (execution.get(i) == null) ? -1 : execution.get(i).intValue();
-            if (cur != prev) switches++;
-            prev = cur;
+        int segments = 0;
+        Integer prev = null; // use null so first entry counts a new segment
+        for (int i = 0; i < execution.size(); i++) {
+            Integer curObj = execution.get(i);
+            int cur = (curObj == null) ? -1 : curObj.intValue();
+            if (prev == null || cur != prev.intValue()) {
+                segments++;            // new segment (idle or non-idle)
+                prev = cur;
+            }
         }
-        return switches / (double) finished;
+        return segments / (double) finished;
     }
 
 
@@ -594,7 +598,7 @@ public final class SystemOS implements Runnable{
             }
             if (first < 0) continue;
 
-            int response = (first + 1) - p.getTime_init();
+            int response = first - p.getTime_init(); // changed: no +1
             sum += response;
             finished++;
         }
