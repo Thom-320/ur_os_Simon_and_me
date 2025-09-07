@@ -40,26 +40,28 @@ public class RoundRobin extends Scheduler{
     @Override
     public void getNext(boolean cpuEmpty) {
         //Insert code here
-        if (!processes.isEmpty() && cpuEmpty) {
-            // select the head of the queue
+        // Case 1: CPU idle -> dispatch head (if any)
+        if (cpuEmpty && !processes.isEmpty()) {
             Process p = processes.removeFirst();
-            // increment context switches
             addContextSwitch();
-            // load the process into CPU
             os.interrupt(InterruptType.SCHEDULER_RQ_TO_CPU, p);
-            // reset quantum counter for next time
             cont = 0;
             return;
         }
 
-        // If CPU is not empty, enforce quantum expiration
-        if (!cpuEmpty && !processes.isEmpty()) {
-            // increment our internal quantum counter each scheduler tick
+        // Case 2: CPU busy -> check quantum
+        if (!cpuEmpty) {
             cont++;
             if (cont >= q) {
-                // time slice expired: preempt current process and rotate it to the back
-                os.interrupt(InterruptType.SCHEDULER_CPU_TO_RQ, null);
-                // cont will be reset when the next process is scheduled (in above branch)
+                // Preempt current
+                os.interrupt(InterruptType.SCHEDULER_CPU_TO_RQ, null); // running process is appended to tail
+                // Immediately dispatch next (eliminates idle '-1')
+                if (!processes.isEmpty()) {
+                    Process next = processes.removeFirst();
+                    addContextSwitch();
+                    os.interrupt(InterruptType.SCHEDULER_RQ_TO_CPU, next);
+                }
+                cont = 0;
             }
         }
     }

@@ -547,20 +547,20 @@ public final class SystemOS implements Runnable{
         int finished = 0;
         for (Process p : processes) if (p.isFinished()) finished++;
         if (finished == 0 || execution.size() < 1) return 0.0;
-
-        int segments = 0;
-        Integer prevNonIdle = null;
+        // Count transitions non-idle -> different non-idle (do not count first load)
+        int transitions = 0;
+        Integer prev = null;
         for (int i = 0; i < execution.size(); i++) {
             Integer curObj = execution.get(i);
             if (curObj == null) continue;
             int cur = curObj.intValue();
             if (cur < 0) continue; // ignore idle
-            if (prevNonIdle == null || cur != prevNonIdle.intValue()) {
-                segments++;            // new non-idle segment (counts first load)
-                prevNonIdle = cur;
+            if (prev != null && cur != prev.intValue()) {
+                transitions++;
             }
+            prev = cur;
         }
-        return segments / (double) finished;
+        return transitions / (double) finished;
     }
     
     
@@ -569,18 +569,12 @@ public final class SystemOS implements Runnable{
         int finished = 0;
         for (Process p : processes) if (p.isFinished()) finished++;
         if (finished == 0 || execution.size() < 1) return 0.0;
-
-        int segments = 0;
-        Integer prev = null; // use null so first entry counts a new segment
-        for (int i = 0; i < execution.size(); i++) {
-            Integer curObj = execution.get(i);
-            int cur = (curObj == null) ? -1 : curObj.intValue();
-            if (prev == null || cur != prev.intValue()) {
-                segments++;            // new segment (idle or non-idle)
-                prev = cur;
-            }
+        // Use ReadyQueue's total context switch counter as the "complete" metric
+        int totalCS = 0;
+        if (os != null && os.rq != null) {
+            totalCS = os.rq.getTotalContextSwitches();
         }
-        return segments / (double) finished;
+        return totalCS / (double) finished;
     }
 
 
