@@ -16,7 +16,7 @@ public class RoundRobin extends Scheduler{
     
     RoundRobin(OS os){
         super(os);
-        q = 5;
+        q = 4;
         cont=0;
     }
     
