@@ -1,0 +1,998 @@
+************************************
+         UR_OS V.0.0.3.9
+************************************
+The file is already created FCFS.txt
+The file is already created FCFS.txt
+Process list:
+PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 15 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+PID: 1 t: 2 Current burst: 0
+Burst list: C: 8 RC: 8 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 10 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+PID: 3 t: 8 Current burst: 0
+Burst list: C: 9 RC: 9 T: CPU F: false	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+
+***SIMULATION START***
+***Clock: 0***
+CPU: Empty
+IO: Empty
+Process 0 was loaded!
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 14 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+***Clock: 1***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 14 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 13 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+***Clock: 2***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 13 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 12 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+***Clock: 3***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 12 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 11 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+***Clock: 4***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 11 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 10 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+***Clock: 5***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 10 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 9 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+***Clock: 6***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 9 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 8 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+***Clock: 7***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 8 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 7 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+***Clock: 8***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 7 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 6 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+***Clock: 9***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 6 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 5 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+***Clock: 10***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 5 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 4 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+***Clock: 11***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 4 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 3 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+***Clock: 12***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 3 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 2 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+***Clock: 13***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 2 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 1 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+***Clock: 14***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 15 RC: 1 T: CPU F: false	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: Empty
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+
+***Clock: 15***
+CPU: Empty
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 12 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+
+Process 1 was loaded!
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 8 RC: 7 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 11 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+
+***Clock: 16***
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 8 RC: 7 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 11 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 8 RC: 6 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 10 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+
+***Clock: 17***
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 8 RC: 6 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 10 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 8 RC: 5 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 9 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+
+***Clock: 18***
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 8 RC: 5 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 9 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 8 RC: 4 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 8 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+
+***Clock: 19***
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 8 RC: 4 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 8 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 8 RC: 3 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 7 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+
+***Clock: 20***
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 8 RC: 3 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 7 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 8 RC: 2 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 6 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+
+***Clock: 21***
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 8 RC: 2 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 6 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 8 RC: 1 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 5 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+
+***Clock: 22***
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 8 RC: 1 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 5 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+
+After the cycle: 
+CPU: Empty
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 4 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+PID: 1 t: 2 Current burst: 1
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 4 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+
+***Clock: 23***
+CPU: Empty
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 4 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+PID: 1 t: 2 Current burst: 1
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 4 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+
+Process 2 was loaded!
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 9 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 3 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+PID: 1 t: 2 Current burst: 1
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 3 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+
+***Clock: 24***
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 9 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 3 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+PID: 1 t: 2 Current burst: 1
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 3 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 8 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 2 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+PID: 1 t: 2 Current burst: 1
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 2 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+
+***Clock: 25***
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 8 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 2 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+PID: 1 t: 2 Current burst: 1
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 2 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 7 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 1 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+PID: 1 t: 2 Current burst: 1
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 1 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+
+***Clock: 26***
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 7 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 1 T: IO F: false	C: 21 RC: 21 T: CPU F: false	
+PID: 1 t: 2 Current burst: 1
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 1 T: IO F: false	C: 16 RC: 16 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 6 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: Empty
+***Clock: 27***
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 6 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 5 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: Empty
+***Clock: 28***
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 5 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 4 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: Empty
+***Clock: 29***
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 4 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 3 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: Empty
+***Clock: 30***
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 3 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 2 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: Empty
+***Clock: 31***
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 2 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 1 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: Empty
+***Clock: 32***
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 10 RC: 1 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: Empty
+IO: PID: 2 t: 6 Current burst: 1
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+
+***Clock: 33***
+CPU: Empty
+IO: PID: 2 t: 6 Current burst: 1
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 5 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+
+Process 3 was loaded!
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 9 RC: 8 T: CPU F: false	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+IO: PID: 2 t: 6 Current burst: 1
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 4 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+
+***Clock: 34***
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 9 RC: 8 T: CPU F: false	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+IO: PID: 2 t: 6 Current burst: 1
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 4 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 9 RC: 7 T: CPU F: false	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+IO: PID: 2 t: 6 Current burst: 1
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 3 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+
+***Clock: 35***
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 9 RC: 7 T: CPU F: false	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+IO: PID: 2 t: 6 Current burst: 1
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 3 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 9 RC: 6 T: CPU F: false	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+IO: PID: 2 t: 6 Current burst: 1
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 2 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+
+***Clock: 36***
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 9 RC: 6 T: CPU F: false	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+IO: PID: 2 t: 6 Current burst: 1
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 2 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 9 RC: 5 T: CPU F: false	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+IO: PID: 2 t: 6 Current burst: 1
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 1 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+
+***Clock: 37***
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 9 RC: 5 T: CPU F: false	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+IO: PID: 2 t: 6 Current burst: 1
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 1 T: IO F: false	C: 12 RC: 12 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 9 RC: 4 T: CPU F: false	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+IO: Empty
+***Clock: 38***
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 9 RC: 4 T: CPU F: false	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 9 RC: 3 T: CPU F: false	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+IO: Empty
+***Clock: 39***
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 9 RC: 3 T: CPU F: false	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 9 RC: 2 T: CPU F: false	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+IO: Empty
+***Clock: 40***
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 9 RC: 2 T: CPU F: false	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 9 RC: 1 T: CPU F: false	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+IO: Empty
+***Clock: 41***
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 9 RC: 1 T: CPU F: false	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: Empty
+IO: PID: 3 t: 8 Current burst: 1
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+
+***Clock: 42***
+CPU: Empty
+IO: PID: 3 t: 8 Current burst: 1
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 6 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+
+Process 0 was loaded!
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 20 T: CPU F: false	
+IO: PID: 3 t: 8 Current burst: 1
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 5 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+
+***Clock: 43***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 20 T: CPU F: false	
+IO: PID: 3 t: 8 Current burst: 1
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 5 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 19 T: CPU F: false	
+IO: PID: 3 t: 8 Current burst: 1
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 4 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+
+***Clock: 44***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 19 T: CPU F: false	
+IO: PID: 3 t: 8 Current burst: 1
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 4 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 18 T: CPU F: false	
+IO: PID: 3 t: 8 Current burst: 1
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 3 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+
+***Clock: 45***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 18 T: CPU F: false	
+IO: PID: 3 t: 8 Current burst: 1
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 3 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 17 T: CPU F: false	
+IO: PID: 3 t: 8 Current burst: 1
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 2 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+
+***Clock: 46***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 17 T: CPU F: false	
+IO: PID: 3 t: 8 Current burst: 1
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 2 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 16 T: CPU F: false	
+IO: PID: 3 t: 8 Current burst: 1
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 1 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+
+***Clock: 47***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 16 T: CPU F: false	
+IO: PID: 3 t: 8 Current burst: 1
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 1 T: IO F: false	C: 17 RC: 17 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 15 T: CPU F: false	
+IO: Empty
+***Clock: 48***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 15 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 14 T: CPU F: false	
+IO: Empty
+***Clock: 49***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 14 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 13 T: CPU F: false	
+IO: Empty
+***Clock: 50***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 13 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 12 T: CPU F: false	
+IO: Empty
+***Clock: 51***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 12 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 11 T: CPU F: false	
+IO: Empty
+***Clock: 52***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 11 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 10 T: CPU F: false	
+IO: Empty
+***Clock: 53***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 10 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 9 T: CPU F: false	
+IO: Empty
+***Clock: 54***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 9 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 8 T: CPU F: false	
+IO: Empty
+***Clock: 55***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 8 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 7 T: CPU F: false	
+IO: Empty
+***Clock: 56***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 7 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 6 T: CPU F: false	
+IO: Empty
+***Clock: 57***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 6 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 5 T: CPU F: false	
+IO: Empty
+***Clock: 58***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 5 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 4 T: CPU F: false	
+IO: Empty
+***Clock: 59***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 4 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 3 T: CPU F: false	
+IO: Empty
+***Clock: 60***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 3 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 2 T: CPU F: false	
+IO: Empty
+***Clock: 61***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 2 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 1 T: CPU F: false	
+IO: Empty
+***Clock: 62***
+CPU: PID: 0 t: 0 Current burst: 2
+Burst list: C: 15 RC: 0 T: CPU F: true	C: 12 RC: 0 T: IO F: true	C: 21 RC: 1 T: CPU F: false	
+IO: Empty
+Process 0 finished!
+After the cycle: 
+CPU: Empty
+IO: Empty
+***Clock: 63***
+CPU: Empty
+IO: Empty
+Process 1 was loaded!
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 15 T: CPU F: false	
+IO: Empty
+***Clock: 64***
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 15 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 14 T: CPU F: false	
+IO: Empty
+***Clock: 65***
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 14 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 13 T: CPU F: false	
+IO: Empty
+***Clock: 66***
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 13 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 12 T: CPU F: false	
+IO: Empty
+***Clock: 67***
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 12 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 11 T: CPU F: false	
+IO: Empty
+***Clock: 68***
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 11 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 10 T: CPU F: false	
+IO: Empty
+***Clock: 69***
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 10 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 9 T: CPU F: false	
+IO: Empty
+***Clock: 70***
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 9 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 8 T: CPU F: false	
+IO: Empty
+***Clock: 71***
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 8 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 7 T: CPU F: false	
+IO: Empty
+***Clock: 72***
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 7 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 6 T: CPU F: false	
+IO: Empty
+***Clock: 73***
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 6 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 5 T: CPU F: false	
+IO: Empty
+***Clock: 74***
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 5 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 4 T: CPU F: false	
+IO: Empty
+***Clock: 75***
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 4 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 3 T: CPU F: false	
+IO: Empty
+***Clock: 76***
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 3 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 2 T: CPU F: false	
+IO: Empty
+***Clock: 77***
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 2 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 1 T: CPU F: false	
+IO: Empty
+***Clock: 78***
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 8 RC: 0 T: CPU F: true	C: 4 RC: 0 T: IO F: true	C: 16 RC: 1 T: CPU F: false	
+IO: Empty
+Process 1 finished!
+After the cycle: 
+CPU: Empty
+IO: Empty
+***Clock: 79***
+CPU: Empty
+IO: Empty
+Process 2 was loaded!
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 11 T: CPU F: false	
+IO: Empty
+***Clock: 80***
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 11 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 10 T: CPU F: false	
+IO: Empty
+***Clock: 81***
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 10 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 9 T: CPU F: false	
+IO: Empty
+***Clock: 82***
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 9 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 8 T: CPU F: false	
+IO: Empty
+***Clock: 83***
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 8 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 7 T: CPU F: false	
+IO: Empty
+***Clock: 84***
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 7 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 6 T: CPU F: false	
+IO: Empty
+***Clock: 85***
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 6 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 5 T: CPU F: false	
+IO: Empty
+***Clock: 86***
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 5 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 4 T: CPU F: false	
+IO: Empty
+***Clock: 87***
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 4 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 3 T: CPU F: false	
+IO: Empty
+***Clock: 88***
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 3 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 2 T: CPU F: false	
+IO: Empty
+***Clock: 89***
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 2 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 1 T: CPU F: false	
+IO: Empty
+***Clock: 90***
+CPU: PID: 2 t: 6 Current burst: 2
+Burst list: C: 10 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 12 RC: 1 T: CPU F: false	
+IO: Empty
+Process 2 finished!
+After the cycle: 
+CPU: Empty
+IO: Empty
+***Clock: 91***
+CPU: Empty
+IO: Empty
+Process 3 was loaded!
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 16 T: CPU F: false	
+IO: Empty
+***Clock: 92***
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 16 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 15 T: CPU F: false	
+IO: Empty
+***Clock: 93***
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 15 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 14 T: CPU F: false	
+IO: Empty
+***Clock: 94***
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 14 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 13 T: CPU F: false	
+IO: Empty
+***Clock: 95***
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 13 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 12 T: CPU F: false	
+IO: Empty
+***Clock: 96***
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 12 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 11 T: CPU F: false	
+IO: Empty
+***Clock: 97***
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 11 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 10 T: CPU F: false	
+IO: Empty
+***Clock: 98***
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 10 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 9 T: CPU F: false	
+IO: Empty
+***Clock: 99***
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 9 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 8 T: CPU F: false	
+IO: Empty
+***Clock: 100***
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 8 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 7 T: CPU F: false	
+IO: Empty
+***Clock: 101***
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 7 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 6 T: CPU F: false	
+IO: Empty
+***Clock: 102***
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 6 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 5 T: CPU F: false	
+IO: Empty
+***Clock: 103***
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 5 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 4 T: CPU F: false	
+IO: Empty
+***Clock: 104***
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 4 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 3 T: CPU F: false	
+IO: Empty
+***Clock: 105***
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 3 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 2 T: CPU F: false	
+IO: Empty
+***Clock: 106***
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 2 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 1 T: CPU F: false	
+IO: Empty
+***Clock: 107***
+CPU: PID: 3 t: 8 Current burst: 2
+Burst list: C: 9 RC: 0 T: CPU F: true	C: 6 RC: 0 T: IO F: true	C: 17 RC: 1 T: CPU F: false	
+IO: Empty
+Process 3 finished!
+After the cycle: 
+CPU: Empty
+IO: Empty
+***SIMULATION FINISHES***
+***Process Execution***
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+***Performance Indicators***
+Total execution cycles: 108
+CPU Utilization: 1.0
+Throughput: 0.037037037037037035
+Average Turnaround Time: 81.25
+Average Waiting Time: 47.5
+Average Context Switches (solo Gantt): 1.75
+Average Context Switches (completo): 0.0
+Average Response Time: 13.75
+*********Comparation:************************
+Error comparing files: C:/Users/Lenovo/Documents/UNIVERSIDAD DEL ROSARIO/V SEMESTRE/Operating System/UR_OS/FCFS.txt (No such file or directory)

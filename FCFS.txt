@@ -7,6 +7,6 @@ CPU Utilization: 1.0
 Throughput: 0.037037037037037035
 Average Turnaround Time: 81.25
 Average Waiting Time: 47.5
-Average Context Switches (solo Gantt): 2.0
-Average Context Switches (completo): 2.0
+Average Context Switches (solo Gantt): 1.75
+Average Context Switches (completo): 0.0
 Average Response Time: 13.75
