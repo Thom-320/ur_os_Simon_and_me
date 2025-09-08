@@ -1,0 +1,137 @@
+************************************
+         UR_OS V.0.0.3.9
+************************************
+===== Menu =====
+1. FCFS
+2. SJF No Preventivo
+3. SJF Preventivo
+4. Round Robin
+5. Por Prioridades
+6. MFQ
+7. Fair Scheduler
+Select the algorithm (1-7): The file is already created PRIORITY.txt
+
+===== Simulation Menu =====
+1. initSimulationQueue
+2. initSimulationQueueSimpler
+3. initSimulationQueueSimpler2
+Select the simulation (1-3): The file is already created PRIORITY.txt
+The file is already created PRIORITY.txt
+Process list:
+PID: -1 t: 0 Current burst: 0
+Burst list: C: 5 RC: 5 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
+PID: -1 t: 2 Current burst: 0
+Burst list: C: 3 RC: 3 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+PID: -1 t: 6 Current burst: 0
+Burst list: C: 7 RC: 7 T: CPU F: false	C: 3 RC: 3 T: IO F: false	C: 5 RC: 5 T: CPU F: false	
+PID: -1 t: 8 Current burst: 0
+Burst list: C: 4 RC: 4 T: CPU F: false	C: 3 RC: 3 T: IO F: false	C: 7 RC: 7 T: CPU F: false	
+
+***SIMULATION START***
+***Clock: 0***
+CPU: Empty
+IO: Empty
+Process 0 was loaded!
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 5 RC: 4 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
+IO: Empty
+***Clock: 1***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 5 RC: 4 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 5 RC: 3 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
+IO: Empty
+***Clock: 2***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 5 RC: 3 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 5 RC: 2 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
+IO: Empty
+***Clock: 3***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 5 RC: 2 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 5 RC: 1 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
+IO: Empty
+***Clock: 4***
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 5 RC: 1 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
+IO: Empty
+After the cycle: 
+CPU: Empty
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 5 RC: 0 T: CPU F: true	C: 4 RC: 4 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
+
+***Clock: 5***
+CPU: Empty
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 5 RC: 0 T: CPU F: true	C: 4 RC: 4 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
+
+Process 1 was loaded!
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 3 RC: 2 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 5 RC: 0 T: CPU F: true	C: 4 RC: 3 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
+
+***Clock: 6***
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 3 RC: 2 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 5 RC: 0 T: CPU F: true	C: 4 RC: 3 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
+
+After the cycle: 
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 3 RC: 1 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 5 RC: 0 T: CPU F: true	C: 4 RC: 2 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
+
+***Clock: 7***
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 3 RC: 1 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 5 RC: 0 T: CPU F: true	C: 4 RC: 2 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
+
+After the cycle: 
+CPU: Empty
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 5 RC: 0 T: CPU F: true	C: 4 RC: 1 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
+PID: 1 t: 2 Current burst: 1
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 5 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+
+***Clock: 8***
+CPU: Empty
+IO: PID: 0 t: 0 Current burst: 1
+Burst list: C: 5 RC: 0 T: CPU F: true	C: 4 RC: 1 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
+PID: 1 t: 2 Current burst: 1
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 5 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+
+Process 2 was loaded!
+After the cycle: 
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 7 RC: 6 T: CPU F: false	C: 3 RC: 3 T: IO F: false	C: 5 RC: 5 T: CPU F: false	
+IO: PID: 1 t: 2 Current burst: 1
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 4 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+
+***Clock: 9***
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 7 RC: 6 T: CPU F: false	C: 3 RC: 3 T: IO F: false	C: 5 RC: 5 T: CPU F: false	
+IO: PID: 1 t: 2 Current burst: 1
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 4 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+
+Process 0 was loaded!
+Exception in thread "Thread-0" java.util.NoSuchElementException
+	at java.base/java.util.LinkedList.removeFirst(LinkedList.java:282)
+	at ur_os.PriorityQueue.getNext(PriorityQueue.java:120)
+	at ur_os.Scheduler.update(Scheduler.java:131)
+	at ur_os.ReadyQueue.update(ReadyQueue.java:66)
+	at ur_os.OS.update(OS.java:28)
+	at ur_os.SystemOS.run(SystemOS.java:378)
+	at java.base/java.lang.Thread.run(Thread.java:1447)

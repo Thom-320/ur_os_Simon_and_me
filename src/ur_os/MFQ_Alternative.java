@@ -7,7 +7,7 @@ package ur_os;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class MFQ extends Scheduler{
+public class MFQ_Alternative extends Scheduler{
 
     int currentScheduler;
     
@@ -16,13 +16,13 @@ public class MFQ extends Scheduler{
     // Track which level each process is at for demotion logic
     private java.util.Map<Process, Integer> processLevels = new java.util.HashMap<>();
     
-    MFQ(OS os){
+    MFQ_Alternative(OS os){
         super(os);
         currentScheduler = -1;
         schedulers = new ArrayList();
     }
     
-    MFQ(OS os, Scheduler... s){ //Received multiple arrays
+    MFQ_Alternative(OS os, Scheduler... s){ //Received multiple arrays
         this(os);
         schedulers.addAll(Arrays.asList(s));
         if(s.length > 0)

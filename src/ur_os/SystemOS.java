@@ -57,8 +57,8 @@ public final class SystemOS implements Runnable{
         if(menu){
             menu();
         }else{
-            selectedScheduler = SchedulerType.MFQ;
-            simulation = 3; // temporary MFQ run
+            selectedScheduler = SchedulerType.PRIORITY;
+            simulation = 2; // temporary PRIORITY run (Simpler)
         }
         
         readyqueue = new ReadyQueue(os,selectedScheduler);

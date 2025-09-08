@@ -23,7 +23,7 @@ public class UR_OS {
         System.out.println("         UR_OS V."+VERSION);
         System.out.println("************************************");
 
-        boolean menu = false;
+        boolean menu = true; // enable menu to run all schedulers/sims
         SystemOS system = new SystemOS(menu);
         
         new Thread(system).start();
