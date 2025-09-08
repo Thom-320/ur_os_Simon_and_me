@@ -1,7 +1,7 @@
 ************************************
          UR_OS V.0.0.3.9
 ************************************
-Created File: MFQ.txt
+The file is already created MFQ.txt
 The file is already created MFQ.txt
 Process list:
 PID: -1 t: 0 Current burst: 0
@@ -17,102 +17,160 @@ Burst list: C: 4 RC: 4 T: CPU F: false	C: 3 RC: 3 T: IO F: false	C: 7 RC: 7 T: C
 ***Clock: 0***
 CPU: Empty
 IO: Empty
+Process 0 was loaded!
 After the cycle: 
-CPU: Empty
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 5 RC: 4 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
 IO: Empty
 ***Clock: 1***
-CPU: Empty
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 5 RC: 4 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
 IO: Empty
 After the cycle: 
-CPU: Empty
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 5 RC: 3 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
 IO: Empty
 ***Clock: 2***
-CPU: Empty
+CPU: PID: 0 t: 0 Current burst: 0
+Burst list: C: 5 RC: 3 T: CPU F: false	C: 4 RC: 4 T: IO F: false	C: 3 RC: 3 T: CPU F: false	
 IO: Empty
+Process 0 was loaded!
+Process 1 was loaded!
 After the cycle: 
-CPU: Empty
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 3 RC: 2 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
 IO: Empty
 ***Clock: 3***
-CPU: Empty
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 3 RC: 2 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
 IO: Empty
 After the cycle: 
-CPU: Empty
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 3 RC: 1 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
 IO: Empty
 ***Clock: 4***
-CPU: Empty
+CPU: PID: 1 t: 2 Current burst: 0
+Burst list: C: 3 RC: 1 T: CPU F: false	C: 5 RC: 5 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
 IO: Empty
 After the cycle: 
 CPU: Empty
-IO: Empty
+IO: PID: 1 t: 2 Current burst: 1
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 5 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+
 ***Clock: 5***
 CPU: Empty
-IO: Empty
+IO: PID: 1 t: 2 Current burst: 1
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 5 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+
 After the cycle: 
 CPU: Empty
-IO: Empty
+IO: PID: 1 t: 2 Current burst: 1
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 4 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+
 ***Clock: 6***
 CPU: Empty
-IO: Empty
+IO: PID: 1 t: 2 Current burst: 1
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 4 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+
+Process 2 was loaded!
 After the cycle: 
-CPU: Empty
-IO: Empty
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 7 RC: 6 T: CPU F: false	C: 3 RC: 3 T: IO F: false	C: 5 RC: 5 T: CPU F: false	
+IO: PID: 1 t: 2 Current burst: 1
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 3 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+
 ***Clock: 7***
-CPU: Empty
-IO: Empty
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 7 RC: 6 T: CPU F: false	C: 3 RC: 3 T: IO F: false	C: 5 RC: 5 T: CPU F: false	
+IO: PID: 1 t: 2 Current burst: 1
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 3 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+
 After the cycle: 
-CPU: Empty
-IO: Empty
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 7 RC: 5 T: CPU F: false	C: 3 RC: 3 T: IO F: false	C: 5 RC: 5 T: CPU F: false	
+IO: PID: 1 t: 2 Current burst: 1
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 2 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+
 ***Clock: 8***
-CPU: Empty
-IO: Empty
+CPU: PID: 2 t: 6 Current burst: 0
+Burst list: C: 7 RC: 5 T: CPU F: false	C: 3 RC: 3 T: IO F: false	C: 5 RC: 5 T: CPU F: false	
+IO: PID: 1 t: 2 Current burst: 1
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 2 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+
+Process 2 was loaded!
+Process 3 was loaded!
 After the cycle: 
-CPU: Empty
-IO: Empty
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 4 RC: 3 T: CPU F: false	C: 3 RC: 3 T: IO F: false	C: 7 RC: 7 T: CPU F: false	
+IO: PID: 1 t: 2 Current burst: 1
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 1 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+
 ***Clock: 9***
-CPU: Empty
-IO: Empty
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 4 RC: 3 T: CPU F: false	C: 3 RC: 3 T: IO F: false	C: 7 RC: 7 T: CPU F: false	
+IO: PID: 1 t: 2 Current burst: 1
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 1 T: IO F: false	C: 6 RC: 6 T: CPU F: false	
+
 After the cycle: 
-CPU: Empty
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 4 RC: 2 T: CPU F: false	C: 3 RC: 3 T: IO F: false	C: 7 RC: 7 T: CPU F: false	
 IO: Empty
 ***Clock: 10***
-CPU: Empty
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 4 RC: 2 T: CPU F: false	C: 3 RC: 3 T: IO F: false	C: 7 RC: 7 T: CPU F: false	
 IO: Empty
 After the cycle: 
-CPU: Empty
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 4 RC: 1 T: CPU F: false	C: 3 RC: 3 T: IO F: false	C: 7 RC: 7 T: CPU F: false	
 IO: Empty
 ***Clock: 11***
-CPU: Empty
+CPU: PID: 3 t: 8 Current burst: 0
+Burst list: C: 4 RC: 1 T: CPU F: false	C: 3 RC: 3 T: IO F: false	C: 7 RC: 7 T: CPU F: false	
 IO: Empty
+Process 3 was loaded!
+Process 1 was loaded!
 After the cycle: 
-CPU: Empty
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 6 RC: 5 T: CPU F: false	
 IO: Empty
 ***Clock: 12***
-CPU: Empty
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 6 RC: 5 T: CPU F: false	
 IO: Empty
 After the cycle: 
-CPU: Empty
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 6 RC: 4 T: CPU F: false	
 IO: Empty
 ***Clock: 13***
-CPU: Empty
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 6 RC: 4 T: CPU F: false	
 IO: Empty
 After the cycle: 
-CPU: Empty
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 6 RC: 3 T: CPU F: false	
 IO: Empty
 ***Clock: 14***
-CPU: Empty
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 6 RC: 3 T: CPU F: false	
 IO: Empty
+Process 1 was loaded!
 After the cycle: 
-CPU: Empty
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 6 RC: 2 T: CPU F: false	
 IO: Empty
 ***Clock: 15***
-CPU: Empty
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 6 RC: 2 T: CPU F: false	
 IO: Empty
 After the cycle: 
-CPU: Empty
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 6 RC: 1 T: CPU F: false	
 IO: Empty
 ***Clock: 16***
-CPU: Empty
+CPU: PID: 1 t: 2 Current burst: 2
+Burst list: C: 3 RC: 0 T: CPU F: true	C: 5 RC: 0 T: IO F: true	C: 6 RC: 1 T: CPU F: false	
 IO: Empty
+Process 1 finished!
 After the cycle: 
 CPU: Empty
 IO: Empty
@@ -6016,15 +6074,15 @@ CPU: Empty
 IO: Empty
 ***SIMULATION FINISHES***
 ***Process Execution***
--1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+0 0 1 1 1 -1 2 2 3 3 3 1 1 1 1 1 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 ***Performance Indicators***
 Total execution cycles: 1000
-CPU Utilization: 0.0
-Throughput: 0.0
-Average Turnaround Time: 0.0
-Average Waiting Time: 0.0
-Average Context Switches (solo Gantt): 0.0
-Average Context Switches (completo): 0.0
+CPU Utilization: 0.016
+Throughput: 0.001
+Average Turnaround Time: 15.0
+Average Waiting Time: 1.0
+Average Context Switches (solo Gantt): 5.0
+Average Context Switches (completo): 9.0
 Average Response Time: 0.0
 *********Comparation:************************
 Error comparing files: C:/Users/Lenovo/Documents/UNIVERSIDAD DEL ROSARIO/V SEMESTRE/Operating System/UR_OS/FCFS.txt (No such file or directory)
