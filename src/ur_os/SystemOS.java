@@ -311,14 +311,13 @@ public final class SystemOS implements Runnable{
         Scanner scanner = new Scanner(System.in);
         
         System.out.println("===== Menu =====");
-        System.out.println("1. FCFS");
-        System.out.println("2. SJF No Preventivo");
-        System.out.println("3. SJF Preventivo");
+        System.out.println("1. First Come First Serve (FCFS)");
+        System.out.println("2. SJF non-preemptive");
+        System.out.println("3. SJF preemptive");
         System.out.println("4. Round Robin");
-        System.out.println("5. Por Prioridades");
-        System.out.println("6. MFQ");
-        System.out.println("7. Fair Scheduler");
-        System.out.print("Select the algorithm (1-7): ");
+        System.out.println("5. Priority Queue");
+        System.out.println("6. Multilevel Feedback Queue");
+        System.out.print("Select the algorithm (1-6): ");
 
         int schedulerChoice = scanner.nextInt();
         scanner.nextLine(); // Limpiar buffer
@@ -331,7 +330,7 @@ public final class SystemOS implements Runnable{
             case 5 -> SchedulerType.PRIORITY;
             case 6 -> SchedulerType.MFQ;
             case 7 -> SchedulerType.FAIR;
-            default -> throw new IllegalArgumentException("Scheduler inválido");
+            default -> throw new IllegalArgumentException("Invalid Scheduler");
         };
 
         readyqueue = new ReadyQueue(os, selectedScheduler);  
